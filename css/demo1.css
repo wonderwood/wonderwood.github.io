@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'ArialNarrow';
+    src: url('../font/ArialNarrow.eot?') format('eot'), url('../font/ArialNarrow.woff') format('woff'), url('../font/ArialNarrow.ttf') format('truetype'), url('../font/ArialNarrow.svg#ArialNarrow') format('svg');
+}
+
+@font-face {
+    font-family: 'HeliosCondRegular';
+    src: url('../font/helioscond.eot');
+    src: url('../font/helioscond.eot') format('embedded-opentype'), url('../font/helioscond.woff') format('woff'), url('../font/helioscond.ttf') format('truetype'), url('../font/helioscond.svg#HeliosCondRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'HeliosCondBold';
+    src: url('../font/helioscond-bold.eot');
+    src: url('../font/helioscond-bold.eot') format('embedded-opentype'), url('../font/helioscond-bold.woff') format('woff'), url('../font/helioscond-bold.ttf') format('truetype'), url('../font/helioscond-bold.svg#HeliosCondBold') format('svg');
+}
+
+@font-face {
+    font-family: 'HeliosUltraCompressedRegular';
+    src: url('../font/heliosultracompressed.eot');
+    src: url('../font/heliosultracompressed.eot') format('embedded-opentype'), url('../font/heliosultracompressed.woff') format('woff'), url('../font/heliosultracompressed.ttf') format('truetype'), url('../font/heliosultracompressed.svg#HeliosUltraCompressedRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MagistralCBold';
+    src: url('../font/magistralc-bold.eot');
+    src: url('../font/magistralc-bold.eot') format('embedded-opentype'), url('../font/magistralc-bold.woff') format('woff'), url('../font/magistralc-bold.ttf') format('truetype'), url('../font/magistralc-bold.svg#MagistralCBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('../font/myriadpro-bold.eot');
+    src: url('../font/myriadpro-bold.eot') format('embedded-opentype'), url('../font/myriadpro-bold.woff') format('woff'), url('../font/myriadpro-bold.ttf') format('truetype'), url('../font/myriadpro-bold.svg#MyriadProBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../font/myriadpro-regular.eot');
+    src: url('../font/myriadpro-regular.eot') format('embedded-opentype'), url('../font/myriadpro-regular.woff') format('woff'), url('../font/myriadpro-regular.ttf') format('truetype'), url('../font/myriadpro-regular.svg#MyriadProRegular') format('svg');
+}
+
+/***************
+ * Intro Panel *
+ ***************/
+
+#story-header #main-menu {
+    height: auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+#story-header #main-menu .inner {
+    width: 100%;
+    position: absolute;
+}
+
+#story-header #main-menu img.topImg {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+#story-header #logo {
+    float: left;
+    margin: 3px 0 0 5px;
+    width: 25%;
+}
+
+#story-header img.logoimg {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+
+}
+
+#story-header .aim {
+    color: #ffffff;
+    float: left;
+    font-size: 0.6em;
+    margin: 0.3em 0 0 6em;
+    text-align: center;
+    width: 26%;
+    font-family: 'HeliosCondRegular';
+}
+
+#story-header .phone {
+    float: right;
+    color: #ffffff;
+    float: right;
+    margin: 10px 15px 0 0;
+    text-align: right;
+    width: 30%;
+    position: relative;
+}
+
+#story-header  .phone .bigphone {
+    background: url("../images/slide1/phone.png") no-repeat scroll left top transparent;
+    font: 0.8em/0.01em 'MagistralCBold';
+    letter-spacing: 0.08em;
+}
+
+#story-header .phone a {
+    font: 0.5em Arial;
+    color: #ffffff;
+    text-decoration: underline;
+}
+#story-header #fone img{
+    float: left;
+    position: relative;
+    display: block;
+    top: -0.4em;
+    left: 0;
+
+}
+
+#story-header #slogan {
+    z-index: 2;
+    position: relative;
+}
+
+#story-header #slogan img {
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+}
+#story-header .plane {
+    z-index: 1;
+    position: absolute;
+    top: 143%;
+    left: 0;
+}
+
+#story-header .plane img {
+    position: relative;
+    width: 60%;
+    height: auto;
+    display: block;
+    top: 0;
+    right: 33%;
+}
+#story-header .parashut {
+    z-index: 1;
+    position: absolute;
+    top: 173%;
+    left: 0;
+}
+
+#story-header .parashut img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    top: 0;
+    left: 15%;
+}
+
+#story-header .glass {
+    z-index: 1;
+    position: absolute;
+    top: 475%;
+    left: 0;
+}
+
+#story-header .glass img {
+    position: relative;
+    width: 60%;
+    height: auto;
+    display: block;
+    top: 0;
+    left: 52%;
+}
+
+#story-header .text12 {
+    float: left;
+    position: absolute;
+    top: 680%;
+}
+
+#story-header .text12 p {
+    width: 70%;
+    font: 0.8em 'MyriadProRegular';
+    color: #161a1d;
+
+}
+.zajavka{
+    height: 3.5em;
+    float: left;
+    text-align: left;
+    width: 14em;
+}
+.zajavka input {
+    background: url("../images/slide1/buttonzajavka.png") no-repeat scroll center top transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: transparent;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#story-header {
+    color: #666;
+}
+
+#story-header h2 {
+    font-family: "Caecilia-Roman", Verdana, sans-serif;
+}
+
+#story-header .story {
+    max-width:100%;
+    padding-right: 0px;
+
+}
+
+#story-header p {
+    width: 800px;
+    font-size: 16px;
+}
+
+#story-header ul li {
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+#story-header ul {
+    padding: 0px;
+}
+.footerslide1{
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    bottom: 1.2em;
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+.footerslide1 .bottomheader{
+    width: 100%;
+    position: absolute;
+    top:50%;
+}
+.footerslide1 .bottomheader img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.footerslide1 a{
+    background: url("../images/slide1/arrowdown.png") no-repeat scroll center left transparent;
+    text-align: center;
+    font: 1em/0.8em Myriad Pro;
+    color: #ffffff;
+    padding: 0.3em;
+    font-style: italic;
+    position: relative;
+    top: 0.8em;
+    z-index: 1;
+
+}
+.footerslide1 a span{
+    margin-left: 20px;
+}
+/***************
+ * Intel Panel *
+ ***************/
+#story-intel {
+    color: #FFF;
+    background: #022639;
+}
+
+/*********************
+ * Ultrabook Project *
+ *********************/
+#story-william {
+    color: #CCC;
+    background: #000;
+}
+
+#story-william .bg {
+    left: auto;
+    right: 0px;
+}
+
+/**************
+ * Bing Panel *
+ **************/
+#story-bing {
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    background: #C9BC33;
+}
+
+#story-bing .logo {
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+}
+
+#story-bing .logo.start {
+    bottom: 190%;
+}
+
+#story-bing .logo.end {
+    bottom: -90%;
+}
+
+/**************
+ * Nike Panel *
+ **************/
+#story-nike {
+    color: #CCC;
+    background: #000;
+}
+
+#story-nike .logo {
+    position: absolute;
+    right: 0%;
+    bottom: 30%;
+}
+
+#story-nike .logo.start {
+    bottom: 170%;
+}
+
+#story-nike .logo.end {
+    bottom: -210%;
+}
+
+#story-nike .box {
+    background: #000;
+    opacity: .7;
+    border-radius: 10px;
+    position: absolute;
+    top: -10px;
+    right: 440px;
+    bottom: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+#story-nike ul.slide {
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    left: -1426px;
+}
+
+#story-nike ul.slide.start {
+    left: -1425px;
+}
+
+#story-nike ul.slide li {
+    display: inline;
+}
+
+#story-nike ul.slide-1.start {
+    opacity: 0;
+}
+
+#story-nike ul.slide-2.start {
+    opacity: 0;
+}
+
+#story-nike ul.slide-3.start {
+    opacity: 0;
+}
+
+#story-nike ul.slide-1 {
+    bottom: 0px;
+}
+
+#story-nike ul.slide-2, #story-nike ul.slide-2.to {
+    bottom: 176px;
+    left: -1425px;
+}
+
+#story-nike ul.slide-2.start {
+    left: -1426px;
+}
+
+#story-nike ul.slide-3 {
+    bottom: 352px;
+}
+
+#story-nike ul.slide-1.to, #story-nike ul.slide-3.to {
+    left: -1425px;
+}
+
+#story-nike ul.slide-1.end {
+    right: 0px;
+    left: auto;
+}
+
+#story-nike ul.slide-3.end {
+    right: 1200px;
+    left: auto;
+}
+
+#story-nike ul.slide-2.to {
+    right: 0px;
+}
+
+#story-nike ul.slide-2.end {
+    left: 200px;
+}
