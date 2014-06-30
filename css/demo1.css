@@ -1,3 +1,21 @@
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+  
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+  #story-header .story{
+  width: 50%;
+  max-width: 50%!important;
+  }
+}
+
+
 @font-face {
     font-family: 'ArialNarrow';
     src: url('../font/ArialNarrow.eot?') format('eot'), url('../font/ArialNarrow.woff') format('woff'), url('../font/ArialNarrow.ttf') format('truetype'), url('../font/ArialNarrow.svg#ArialNarrow') format('svg');
